@@ -1,4 +1,3 @@
-import Img1 from "../../assets/img1.png";
 export const ServiceCard = ({ item }) => {
   return (
     <div className="bg-blue-100 shadow-lg p-4 cursor-pointer  rounded-lg  boxshadow md:flex  justify-between  ">

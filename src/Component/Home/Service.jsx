@@ -1,4 +1,4 @@
-import { NavbarData, ServiceData } from "../../data/data";
+import { ServiceData } from "../../data/data";
 import { ServiceCard } from "./ServiceCard";
 
 export const Service = () => {

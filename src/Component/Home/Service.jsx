@@ -13,7 +13,7 @@ export const Service = () => {
       </p>
       <div className="my-10 md:my-20 grid  md:grid-cols-2  gap-x-20 gap-y-8  ">
         {ServiceData.map((item, index) => (
-          <ServiceCard key={index} item={item} />
+          <ServiceCard key={index} data={item} />
         ))}
       </div>
     </div>

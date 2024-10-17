@@ -55,29 +55,242 @@ export const ServiceData = [
 
 export const InsightData = [
   {
-    item: [
-      {
-        name: "Income Tax",
-      },
-      {
-        name: "GST",
-      },
-      {
-        name: "Compliance",
-      },
-      {
-        name: "Trademark",
-      },
-      {
-        name: "Accounting",
-      },
-      {
-        name: "Legal",
-      },
-      {
-        name: "TaxSikho",
-      },
-    ],
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
+  },
+  {
+    title: "Service Title",
+    heading: "Why Startups need to follow compliance",
+    description:
+      "   In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius     phasellus blandit convallis.",
+    img: "https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75",
   },
 ];
 

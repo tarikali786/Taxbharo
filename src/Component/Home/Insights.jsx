@@ -3,13 +3,14 @@ import { InsightData } from "../../data/data"; // Correct import
 import { InsightsCard } from "./InsightsCard";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
+import { Link } from "react-router-dom";
 
 export const Insights = () => {
   const [page, setPage] = useState(1);
 
   const itemsPerPage = 3;
 
-  const insightItems = InsightData[0]?.item || []; 
+  const insightItems = InsightData || [];
 
   const totalPages = Math.ceil(insightItems.length / itemsPerPage);
 
@@ -33,10 +34,10 @@ export const Insights = () => {
       </p>
       <div className="my-10 md:mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8">
         {currentItems.map((item, index) => (
-          <InsightsCard key={index} item={item} />
+          <InsightsCard key={index} item={item} index={index} />
         ))}
       </div>
-      <Stack className="flex justify-center items-center mb-20">
+      <Stack className="flex justify-center items-center mb-8">
         <Pagination
           count={totalPages}
           page={page}
@@ -45,6 +46,14 @@ export const Insights = () => {
           color="secondary"
         />
       </Stack>
+      <div className="flex  justify-center mb-20">
+        <Link
+          to="/blogs"
+          className={`bg-blue-500 md:px-6 md:py-2 px-2 py-1 rounded-md text-white-500  `}
+        >
+          Read More
+        </Link>
+      </div>
     </div>
   );
 };

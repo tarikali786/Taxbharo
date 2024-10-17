@@ -1,23 +1,29 @@
-export const InsightsCard = () => {
+import { useState } from "react";
+import { SkeletonLoading } from "../Common/Skeleton";
+import { Link } from "react-router-dom";
+
+export const InsightsCard = ({ item, index }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <div className="bg-white shadow-lg p-4 cursor-pointer  rounded-lg  boxshadow">
+    <Link
+      to={`/blog/${index}`}
+      className="bg-white shadow-lg p-4 cursor-pointer  rounded-lg  boxshadow"
+    >
       <div className="w-full h-44 md:h-52">
+        {isLoading && <SkeletonLoading />}
         <img
           className="w-full h-full object-fill rounded-md"
-          src="https://www.taxbharo.in/_next/image?url=https%3A%2F%2Ftaxbharo-images.s3.us-east-1.amazonaws.com%2Fblogs%2F1716353749919.png&w=1920&q=75"
+          src={item?.img}
           alt="Service"
+          onLoad={() => setIsLoading(false)}
         />
       </div>
       <div className="mt-2 ">
-        <span className="font-normal text-sm ">Service Title</span>
-        <h3 className="font-bold text-md my-2">
-          Why Startups need to follow compliance
-        </h3>
-        <p>
-          In purus at morbi magna in in maecenas. Nunc nulla magna elit, varius
-          phasellus blandit convallis.
-        </p>
+        <span className="font-normal text-sm ">{item?.title}</span>
+        <h3 className="font-bold text-md my-2">{item?.heading}</h3>
+        <p>{item?.description}</p>
       </div>
-    </div>
+    </Link>
   );
 };

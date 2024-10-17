@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ServiceData } from "../../data/data";
 import { ServiceCard } from "./ServiceCard";
 
@@ -11,7 +12,7 @@ export const Service = () => {
         Our services are curated as per the needs of clients and their business
         requirements
       </p>
-      <div className="my-10 md:my-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="my-10 md:my-20 grid grid-cols-1 sm:grid-cols-2  gap-8">
         {ServiceData.map((item, index) => (
           <ServiceCard key={index} data={item} />
         ))}

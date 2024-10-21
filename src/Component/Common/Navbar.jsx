@@ -35,12 +35,14 @@ export const Navbar = () => {
 
       <div className=" gap-4 items-center hidden md:flex">
         <Link
-          to="#"
+          to="/auth/sign-in"
           className=" bg-blue-500 rounded-full text-white-500 px-4 pt-2 pb-3 "
         >
           Sign-up
         </Link>
-        <Link className="text-black-600 font-medium ">Login</Link>
+        <Link to="/auth/sign-in" className="text-black-600 font-medium ">
+          Login
+        </Link>
       </div>
       <div className="md:hidden block" onClick={toggleDrawer(true)}>
         <MenuIcon className="text-black-500" style={{ fontSize: "34px" }} />

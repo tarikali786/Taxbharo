@@ -1,8 +1,16 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import "./App.css";
-import { BlogDetails, Blogs, Home } from "./Component";
+import {
+  BlogDetails,
+  Blogs,
+  Home,
+  SignIn,
+  VerifyNumber,
+  VerifyOTP,
+} from "./Component";
 import Layout1 from "./Layout/Layout1";
+import AuthLayout from "./Layout/AuthLayout";
 
 function App() {
   const location = useLocation();
@@ -13,6 +21,11 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<BlogDetails />} />
+        </Route>
+        <Route path="/auth" element={<AuthLayout />}>
+          <Route path="sign-in" element={<SignIn />} />
+          <Route path="verify-number" element={<VerifyNumber />} />
+          <Route path="verify-otp" element={<VerifyOTP />} />
         </Route>
       </Routes>
     </AnimatePresence>

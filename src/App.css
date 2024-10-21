@@ -27,3 +27,9 @@ img {
   border-color: var(--brand-color) !important;
   background-color: var(--brand-color) !important;
 }
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 12px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}

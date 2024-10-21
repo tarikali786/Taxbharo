@@ -4,13 +4,14 @@ import "./App.css";
 import {
   BlogDetails,
   Blogs,
-  Home,
   SignIn,
   VerifyNumber,
   VerifyOTP,
 } from "./Component";
 import Layout1 from "./Layout/Layout1";
 import AuthLayout from "./Layout/AuthLayout";
+import WithLazyComponet from "./LazyLoading/WithLazyLoading";
+const LazyHome = WithLazyComponet(() => import("./Component/Home/Home"));
 
 function App() {
   const location = useLocation();
@@ -18,7 +19,7 @@ function App() {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Layout1 />}>
-          <Route index element={<Home />} />
+          <Route index element={<LazyHome />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<BlogDetails />} />
         </Route>

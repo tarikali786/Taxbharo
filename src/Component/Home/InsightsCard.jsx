@@ -8,7 +8,7 @@ export const InsightsCard = ({ item, index }) => {
   return (
     <Link
       to={`/blog/${index}`}
-      className="bg-white shadow-lg p-4 cursor-pointer  rounded-lg  boxshadow"
+      className="bg-white-500 shadow-lg p-4 cursor-pointer  rounded-lg  "
     >
       <div className="w-full h-44 md:h-52">
         {isLoading && <SkeletonLoading />}

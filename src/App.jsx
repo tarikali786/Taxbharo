@@ -4,6 +4,7 @@ import "./App.css";
 import {
   BlogDetails,
   Blogs,
+  Service,
   SignIn,
   VerifyNumber,
   VerifyOTP,
@@ -22,6 +23,7 @@ function App() {
           <Route index element={<LazyHome />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<BlogDetails />} />
+          <Route path="/service" element={<Service />} />
         </Route>
         <Route path="/auth" element={<AuthLayout />}>
           <Route path="sign-in" element={<SignIn />} />

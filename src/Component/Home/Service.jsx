@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { ServiceData } from "../../data/data";
 import { ServiceCard } from "./ServiceCard";
 

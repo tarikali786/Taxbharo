@@ -4,6 +4,7 @@ import { InsightsCard } from "./InsightsCard";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import { Link } from "react-router-dom";
+import { Button } from "../Common/Button";
 
 export const Insights = () => {
   const [page, setPage] = useState(1);
@@ -46,13 +47,9 @@ export const Insights = () => {
           color="secondary"
         />
       </Stack>
-      <div className="flex  justify-center mb-20">
-        <Link
-          to="/blogs"
-          className={`bg-blue-500 md:px-6 md:py-2 px-2 py-1 rounded-md text-white-500  `}
-        >
-          Read More
-        </Link>
+
+      <div className="w-full flex items-center justify-center md:mt-14 mt-6">
+        <Button text="Read More" link="/blogs" />
       </div>
     </div>
   );

@@ -22,11 +22,6 @@ img {
 .css-rizt0-MuiTypography-root {
   font-size: 1.2rem !important;
 }
-.css-htddyp-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
-  color: #fff !important;
-  border-color: var(--brand-color) !important;
-  background-color: var(--brand-color) !important;
-}
 
 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
   border-radius: 12px !important;

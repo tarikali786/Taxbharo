@@ -4,6 +4,9 @@ import { Divider } from "@mui/material";
 import axios from "axios";
 
 export const VerifyNumber = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const [isLoading, setIsLoading] = useState(true);
   const [countrySearch, setCountrySearch] = useState("India");
   const [countries, setCountries] = useState([]);

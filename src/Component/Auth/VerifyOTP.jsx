@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SkeletonLoading } from "../Common/Skeleton";
 import { MuiOtpInput } from "mui-one-time-password-input";
+import { useEffect } from "react";
 
 export const VerifyOTP = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -8,6 +9,9 @@ export const VerifyOTP = () => {
   const handleChange = (newValue) => {
     setOtp(newValue);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="w-full px-4 py-4 md:flex md:flex-col md:items-center md:mt-10 md:pb-10 md:rounded md:shadow-md md:w-1/2 md:m-auto">
       <div className="w-36 h-10 mt-12">

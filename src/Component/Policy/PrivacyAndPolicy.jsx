@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 
 export const PrivacyAndPolicy = () => {
   const [policyContent, setPolicyContent] = useState("");
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   useEffect(() => {
     const fetchPrivacyPolicy = async () => {
       try {

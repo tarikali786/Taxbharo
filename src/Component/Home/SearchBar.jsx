@@ -1,6 +1,11 @@
 import { Button } from "../Common/Button";
+import { useEffect } from "react";
 
 export const SearchBar = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="flex items-center justify-center gap-2  w-full md:w-2/3 m-auto px-4   py-3 rounded-md my-8 md:my-20 boxshadow">
       <img

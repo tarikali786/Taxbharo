@@ -4,10 +4,13 @@ import Img1 from "../../assets/signIn.png";
 import { Google } from "./Google";
 import { Apple } from "./Apple";
 import { Email } from "./Email";
+import { useEffect } from "react";
 
 export const SignIn = () => {
   const [isLoading, setIsLoading] = useState(true);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       {/* mobile layout */}

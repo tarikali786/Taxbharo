@@ -1,5 +1,10 @@
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
+import { useEffect } from "react";
+
 export const Disclaimer = ({ onClick }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className=" fixed top-10  md:top-20 md:w-[80%] w-[96%] h-[80vh]  overflow-auto flex flex-col z-[1300] items-center justify-center  bg-white-500 shadow-lg  rounded-2xl py-10 px-2 md:px-10">
       <div className="  relative w-full md:mt-0 mt-[500px]">

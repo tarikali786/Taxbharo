@@ -2,7 +2,12 @@ import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
 export const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="w-full md:px-28 lg:px-44 pb-10  px-2">
       <div className="mt-10">

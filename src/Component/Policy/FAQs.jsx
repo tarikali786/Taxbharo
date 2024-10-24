@@ -2,8 +2,12 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useEffect } from "react";
 
 export const FAQs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="md:my-10  w-full md:px-28 lg:px-44 px-2  ">
       <h1 className="text-center md:text-3xl text-2xl text-blue-500  font-semibold  mb-4 underline ">

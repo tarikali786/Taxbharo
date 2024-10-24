@@ -2,10 +2,14 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useEffect } from "react";
 
 export const FAQ = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
-    <div className="md:my-32 my-10">
+    <div className="md:my-32  my-20">
       <h1 className="text-center text-2xl md:text-3xl font-semibold text-blue-500  ">
         Personal Income Tax Filing FAQ’s
       </h1>

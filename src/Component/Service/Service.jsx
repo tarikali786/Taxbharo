@@ -17,7 +17,7 @@ export const Service = () => {
           <InsightsCard key={index} item={item} />
         ))}
       </div>
-      <div className="w-full flex items-center justify-center mt-14m">
+      <div className="w-full flex items-center justify-center mt-14">
         <Button text="Read More" link="/blogs" />
       </div>
       <DownloadApp />

@@ -2,10 +2,14 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import "./App.css";
 import {
+  AboutUs,
   BlogDetails,
   Blogs,
+  FAQs,
+  PrivacyAndPolicy,
   Service,
   SignIn,
+  TermsAndCondition,
   VerifyNumber,
   VerifyOTP,
 } from "./Component";
@@ -24,6 +28,10 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blog/:id" element={<BlogDetails />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/privacy-and-policy" element={<PrivacyAndPolicy />} />
+          <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
+          <Route path="/faq" element={<FAQs />} />
+          <Route path="/about-us" element={<AboutUs />} />
         </Route>
         <Route path="/auth" element={<AuthLayout />}>
           <Route path="sign-in" element={<SignIn />} />

@@ -33,7 +33,7 @@ const Home = () => {
       </motion.div>
 
       {disclaimerModel && (
-        <div className="fixed top-0 left-0 h-[100vh] w-full   flex items-center justify-center bg-black-500 bg-opacity-50 z-50">
+        <div className="   h-[100vh] w-full   flex items-center justify-center bg-black-500 bg-opacity-50 z-50">
           <Disclaimer onClick={CloseDisclaimerModel} />
         </div>
       )}
